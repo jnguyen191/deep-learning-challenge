@@ -1,0 +1,41 @@
+INITIAL RUN (GOOGLE COLLAB)
+
+APPLICATION_TYPE cutoff = 10
+CLASSIFICATION cutoff = 100
+layer1 = 7 : activation function = relu
+layer2 = 14 : activation function = relu
+
+Loss: 0.5534879565238953, Accuracy: 0.7300291657447815
+
+A loss value of 55 indicates that the model can be further optimized.
+The accuracy percent shows that 73% of the model's predicted values align with the true values in the original dataset.
+
+
+OPTIMIZATION 2: 
+
+APPLICATION_TYPE cutoff = 300
+CLASSIFICATION cutoff = 150
+layer1 = 7 : activation function = relu
+layer2 = 14 : activation function = relu
+layer3 = 21 : activation function = relu
+
+Loss: 0.9845994710922241, Accuracy: 0.5678133964538574
+A loss value of 98 indicates that the model can be further optimized.
+The accuracy percent shows that 56% of the model's predicted values align with the true values in the original dataset.
+
+
+OPTIMIZATION 3:
+
+APPLICATION_TYPE cutoff = 200
+CLASSIFICATION cutoff = 100
+layer1 = 7 : activation function = relu
+layer2 = 14 : activation function = relu
+layer3 = 21 : activation function = relu
+
+Loss: 0.5520119667053223, Accuracy: 0.7294460535049438
+
+A loss value of 55 indicates that the model can be further optimized.
+The accuracy percent shows that 72.9% of the model's predicted values align with the true values in the original dataset.
+
+
+---After all 3 attempts, I was not successful in reaching the goal of 75% accurracy. However, I noticed that during the training, there were some results that came close to 80%, but the final result did not reach 75%.---
