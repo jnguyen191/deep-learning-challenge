@@ -37,5 +37,12 @@ Loss: 0.5520119667053223, Accuracy: 0.7294460535049438
 A loss value of 55 indicates that the model can be further optimized.
 The accuracy percent shows that 72.9% of the model's predicted values align with the true values in the original dataset.
 
+OPTIMIZATION 4:
 
----After all 3 attempts, I was not successful in reaching the goal of 75% accurracy. However, I noticed that during the training, there were some results that came close to 80%, but the final result did not reach 75%.---
+cutoff_value = 500
+Loss: 0.6744884268813509, Accuracy: 0.7112536430358887
+
+The accuracy percent shows that 71% of the model's predicted values align with the true values in the original dataset.
+
+
+---After all 4 attempts, I was not successful in reaching the goal of 75% accurracy. However, I noticed that during the training, there were some results that came close to 80%, but the final result did not reach 75%.---
